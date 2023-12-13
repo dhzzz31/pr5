@@ -50,6 +50,7 @@ namespace WindowsFormsApp1
                     txtY2.Text = "";
                 }
 
+
                 // Выполняем цикл от fromY до toY
                 for (int y = fromY; y <= toY; y++)
                 {
