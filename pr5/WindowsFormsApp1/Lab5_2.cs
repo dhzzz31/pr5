@@ -59,7 +59,6 @@ namespace WindowsFormsApp1
  
         private void button1_Click(object sender, EventArgs e)
         {
-            // Переход с Таймера на Какую-то математическую штуку
             Lab5 form1 = new Lab5();
             form1.Show();
             this.Hide();

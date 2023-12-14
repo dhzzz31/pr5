@@ -19,8 +19,8 @@ namespace WindowsFormsApp1
 
         private void btnCalc_Click(object sender, EventArgs e)
         {
-            /* Получаем значения из текстовых полей txtX1, txtX2, txtY1, txtY2
-             и преобразуем их в целочисленный тип */
+            // Получаем значения из текстовых полей txtX1, txtX2, txtY1, txtY2
+            // и преобразуем их в целочисленный тип 
             int fromX = int.Parse(txtX1.Text);
             int toX = int.Parse(txtX2.Text);
             int fromY = int.Parse(txtY1.Text);
@@ -62,7 +62,6 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // Переход с Какой-то математической штуки на Таймер
             Lab5_2 form2 = new Lab5_2();
             form2.Show();
             this.Hide();

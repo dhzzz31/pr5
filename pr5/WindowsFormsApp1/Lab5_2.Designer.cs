@@ -94,7 +94,7 @@
             this.Form1.Name = "Form1";
             this.Form1.Size = new System.Drawing.Size(54, 22);
             this.Form1.TabIndex = 5;
-            this.Form1.Text = "For";
+            this.Form1.Text = "Назад";
             this.Form1.UseVisualStyleBackColor = true;
             this.Form1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -135,7 +135,7 @@
             this.Controls.Add(this.txtSeconds);
             this.Controls.Add(this.txtMinutes);
             this.Name = "Lab5_2";
-            this.Text = "Секундомер";
+            this.Text = "Таймер";
             this.ResumeLayout(false);
             this.PerformLayout();
 
